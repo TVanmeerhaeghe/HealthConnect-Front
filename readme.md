@@ -6,10 +6,9 @@ This project is a simple front-end for a Doctor Directory application. It allows
 
 ```markdown
 .
-├── public
-│   ├── index.html
-│   ├── index.css
-│   └── app.js
+│── index.html
+│── index.css
+│── app.js
 ├── .github
 │   └── workflows
 │       └── ci.yml
@@ -47,10 +46,7 @@ docker run -p 8080:80 doctor-directory-frontend
    - **Running with Docker**: Instructions pour exécuter le projet avec Docker, y compris les commandes nécessaires pour construire et exécuter le conteneur Docker.
 4. **CI/CD Pipeline**: Fournit des instructions et un exemple de fichier de workflow GitHub Actions pour configurer CI/CD pour votre projet. 
    - **Setting up Secrets**: Explique comment configurer les secrets nécessaires pour pousser les images Docker sur Docker Hub.
-5. **Contributions**: Encourage les contributions et explique comment les gens peuvent contribuer au projet.
-6. **License**: Indique la licence sous laquelle le projet est distribué.
-
-7. **ASCII Art**: Ajoute un dessin ASCII pour une touche visuelle amusante.
+5. **ASCII Art**: Ajoute un dessin ASCII pour une touche visuelle amusante.
 
   _____             _             
  |  __ \           (_)            
